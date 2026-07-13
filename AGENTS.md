@@ -38,6 +38,26 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 - Worklog: [WORKLOG.md](./WORKLOG.md) — update on FE branches only
 - Guides: [../docs/learning/](../docs/learning/)
 
+## Session protocol
+
+Prompt-driven — run only when the user says **"Log in"** or **"Log out"**. For cross-repo work, see [../AGENTS.md](../AGENTS.md#session-protocol).
+
+### Log in
+
+Read: [../AGENTS.md](../AGENTS.md), this file, [ARCHITECTURE.md](./ARCHITECTURE.md), [FEATURES.md](./FEATURES.md), latest [WORKLOG.md](./WORKLOG.md).
+
+Tell the user: current feature ID, status, next step.
+
+### During work
+
+- One feature `In progress` in this repo at a time
+- Never mark `Done` without validation from [FEATURES.md](./FEATURES.md)
+
+### Log out
+
+1. Update [FEATURES.md](./FEATURES.md) statuses
+2. Prepend entry to [WORKLOG.md](./WORKLOG.md): date, feature IDs, summary, current state, next steps, blockers
+
 ## GitHub
 
 Repo: `portfolio-frontend` · Deploy: Vercel (repo root = this folder)
