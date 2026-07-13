@@ -4,6 +4,19 @@ Append-only, newest first. Update on **portfolio-frontend branches only**.
 
 ---
 
+## 2026-07-12 — Session 2: README + pushed to GitHub (INT-03)
+
+**Feature IDs:** INT-03  
+**Summary:** Added `README.md`. Fixed `origin` remote URL and pushed to `github.com/thuytrantkt/portfolio-frontend`.
+
+**Current state:** Repo on GitHub. FE-01 not started.
+
+**Next steps:** FE-01 ([01-nextjs-foundations.md](../docs/learning/01-nextjs-foundations.md)).
+
+**Blockers:** None.
+
+---
+
 ## 2026-07-12 — Session 1: Folder renamed to portfolio-frontend
 
 **Feature IDs:** —  
