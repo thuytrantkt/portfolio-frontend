@@ -45,3 +45,16 @@ Follow [../AGENTS.md#session-protocol](../AGENTS.md#session-protocol). **FE scop
 ## GitHub
 
 Repo: `portfolio-frontend` · Deploy: Vercel (repo root = this folder)
+
+## Next.js docs (for agents)
+
+<!-- BEGIN:nextjs-agent-rules -->
+Before writing Next.js code, read the guides in `node_modules/next/dist/docs/` (use `01-app/` for App Router). This project's installed Next.js version may differ from common training data — heed deprecation notices in those docs.
+<!-- END:nextjs-agent-rules -->
+
+- Official: https://nextjs.org/docs
+- Learning guides for this repo ([index](../docs/learning/)):
+  - [00 — Two GitHub repos](../docs/learning/00-github-two-repos.md) (INT-03)
+  - [01 — Next.js App Router foundations](../docs/learning/01-nextjs-foundations.md) (FE-01)
+  - [02 — Pages and composition](../docs/learning/02-pages-and-composition.md) (FE-03)
+  - [03 — RTK Query store and apiSlice](../docs/learning/03-rtk-query.md) (FE-04)
