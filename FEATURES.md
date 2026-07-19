@@ -7,7 +7,7 @@ Parent rollup: [../docs/FEATURES.md](../docs/FEATURES.md) · Guide index: [../do
 
 | ID | Title | Owner | Status | Validation | Guide |
 |----|-------|-------|--------|------------|-------|
-| FE-01 | Next.js App Router foundations | You | Todo | `npm run dev` serves home page with layout | [01-nextjs](../docs/learning/01-nextjs-foundations.md) |
+| FE-01 | Next.js App Router foundations | You | Done | `npm run dev` serves home page with layout | [01-nextjs](../docs/learning/01-nextjs-foundations.md) |
 | FE-02 | UI components (shadcn/ui) | Agent | Todo | Components render in Storybook or demo page | — |
 | FE-03 | Assemble portfolio sections | You | Todo | All sections visible on home page | [02-pages](../docs/learning/02-pages-and-composition.md) |
 | FE-04 | RTK Query store + apiSlice | You | Todo | Hooks fetch mock then live data | [03-rtk-query](../docs/learning/03-rtk-query.md) |
