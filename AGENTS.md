@@ -56,5 +56,6 @@ Before writing Next.js code, read the guides in `node_modules/next/dist/docs/` (
 - Learning guides for this repo ([index](../docs/learning/)):
   - [00 — Two GitHub repos](../docs/learning/00-github-two-repos.md) (INT-03)
   - [01 — Next.js App Router foundations](../docs/learning/01-nextjs-foundations.md) (FE-01)
+  - [01b — shadcn/ui setup and usage](../docs/learning/01b-shadcn-ui.md) (FE-02)
   - [02 — Pages and composition](../docs/learning/02-pages-and-composition.md) (FE-03)
   - [03 — RTK Query store and apiSlice](../docs/learning/03-rtk-query.md) (FE-04)
