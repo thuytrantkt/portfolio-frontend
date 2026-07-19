@@ -49,6 +49,7 @@ Repo: `portfolio-frontend` · Deploy: Vercel (repo root = this folder)
 ## Next.js docs (for agents)
 
 <!-- BEGIN:nextjs-agent-rules -->
+
 Before writing Next.js code, read the guides in `node_modules/next/dist/docs/` (use `01-app/` for App Router). This project's installed Next.js version may differ from common training data — heed deprecation notices in those docs.
 <!-- END:nextjs-agent-rules -->
 

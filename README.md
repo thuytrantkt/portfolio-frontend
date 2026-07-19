@@ -4,11 +4,11 @@ Next.js frontend for [kieuthuytkt.com](https://kieuthuytkt.com) — portfolio si
 
 Part of a two-repo portfolio project. The parent workspace (`portfolio/`) holds shared docs and Cursor rules; **this folder is the Git repo root** deployed to Vercel.
 
-| | |
-|---|---|
-| **Backend** | `portfolio-backend` repo → Render |
-| **System design** | [ARCHITECTURE.md](./ARCHITECTURE.md) · [../ARCHITECTURE.md](../ARCHITECTURE.md) |
-| **Learning guides** | [docs/learning/](../docs/learning/) |
+|                     |                                                                                 |
+| ------------------- | ------------------------------------------------------------------------------- |
+| **Backend**         | `portfolio-backend` repo → Render                                               |
+| **System design**   | [ARCHITECTURE.md](./ARCHITECTURE.md) · [../ARCHITECTURE.md](../ARCHITECTURE.md) |
+| **Learning guides** | [docs/learning/](../docs/learning/)                                             |
 
 ## Stack
 
@@ -44,16 +44,16 @@ npm run lint     # ESLint
 
 Copy `.env.example` to `.env.local` (never commit `.env.local`):
 
-| Variable | Description |
-|----------|-------------|
+| Variable              | Description                                     |
+| --------------------- | ----------------------------------------------- |
 | `NEXT_PUBLIC_API_URL` | Backend base URL (e.g. `http://localhost:8000`) |
 
 ## Pages & data (planned)
 
-| Area | Description |
-|------|-------------|
-| Home | Hero, About, Projects, Experience, Skills, Contact |
-| API | RTK Query hooks: `getProjects`, `getExperience`, `getSkills`, `postContact` |
+| Area | Description                                                                 |
+| ---- | --------------------------------------------------------------------------- |
+| Home | Hero, About, Projects, Experience, Skills, Contact                          |
+| API  | RTK Query hooks: `getProjects`, `getExperience`, `getSkills`, `postContact` |
 
 Mock data can stand in until the backend is live. See [ARCHITECTURE.md](./ARCHITECTURE.md) and [../ARCHITECTURE.md](../ARCHITECTURE.md) for the API contract.
 

@@ -128,3 +128,89 @@
     @apply font-sans;
   }
 }
+
+@layer components {
+  .control-states {
+    @apply border outline-hidden;
+    border-color: var(--color-input);
+  }
+
+  .control-states:focus-visible {
+    border-color: var(--color-ring);
+    @apply ring-3 ring-ring/50;
+  }
+
+  .control-states[aria-invalid="true"] {
+    border-color: var(--color-destructive);
+    @apply ring-3 ring-destructive/20;
+  }
+
+  .dark .control-states[aria-invalid="true"] {
+    @apply border-destructive/50 ring-destructive/40;
+  }
+
+  .control-states-interactive {
+    @apply border border-transparent outline-hidden;
+  }
+
+  .control-states-interactive:focus-visible {
+    @apply border-ring ring-3 ring-ring/50;
+  }
+
+  .control-states-interactive[aria-invalid="true"] {
+    @apply border-destructive ring-3 ring-destructive/20;
+  }
+
+  .dark .control-states-interactive[aria-invalid="true"] {
+    @apply border-destructive/50 ring-destructive/40;
+  }
+
+  .control-states-interactive-destructive:focus-visible {
+    @apply border-destructive/40 ring-destructive/20;
+  }
+
+  .dark .control-states-interactive-destructive:focus-visible {
+    @apply ring-destructive/40;
+  }
+
+  .label-control {
+    @apply flex items-center gap-2 text-sm leading-none font-medium select-none;
+  }
+
+  .group[data-disabled="true"] .label-control {
+    @apply pointer-events-none opacity-50;
+  }
+
+  .peer:disabled ~ .label-control {
+    @apply cursor-not-allowed opacity-50;
+  }
+
+  .card-root {
+    @apply flex flex-col gap-(--card-spacing) overflow-hidden rounded-xl bg-card py-(--card-spacing) text-sm text-card-foreground ring-1 ring-foreground/10 has-[>img:first-child]:pt-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl;
+    --card-spacing: --spacing(4);
+  }
+
+  .card-root[data-size="sm"] {
+    --card-spacing: --spacing(3);
+  }
+
+  .card-root:has([data-slot="card-footer"]) {
+    @apply pb-0;
+  }
+
+  .card-title {
+    @apply font-heading text-base leading-snug font-medium;
+  }
+
+  .card-root[data-size="sm"] .card-title {
+    @apply text-sm;
+  }
+
+  .separator-root[data-orientation="horizontal"] {
+    @apply h-px w-full;
+  }
+
+  .separator-root[data-orientation="vertical"] {
+    @apply w-px self-stretch;
+  }
+}
